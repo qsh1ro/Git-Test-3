@@ -5,3 +5,11 @@
 5. git push [rep_link] [branch_name] / git push origin master 
 
 проверка ветки(branch) - git branch
+
+чтобы убрать файл из записи(stage) используем команду reset:
+git reset (index.html)
+
+git diff - показывает изменения в файлах(для всех)
+git diff index.html - для определенного
+
+git reset --hard - уберет все изменения или вернет все на место 
